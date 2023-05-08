@@ -1,0 +1,44 @@
+:root {
+  --primary: #210b2c;
+  --secondary: #55286f;
+  --accent: #bc96e6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.App {
+  margin-top: 2rem;
+  padding: 40px;
+}
+.Series__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Search__input input {
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  width: 100%;
+  border: 1px solid var(--primary);
+}
