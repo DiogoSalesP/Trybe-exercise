@@ -1,15 +1,9 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "target": "es2016",
-    "lib": [
-      "ES6",
-      "DOM"
-    ],                             
-    "module": "Node16", // npm i -D -E typescript@4.7
-    "rootDir": "./",
-    "outDir": "./dist",
-    "preserveConstEnums": true,
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
